@@ -4,10 +4,11 @@
 
 Simple shell script to setup [Ansible](http://www.ansible.com/) within [Babun](http://babun.github.io/), to allow using Ansible from Windows without needing a virtual machine.
 
-## Installation
+## Babun Setup steps:
 
-* Install [Babun](http://babun.github.io/) and start a terminal.
-* Run the following command:
+* Go to the file://wldfs040/OpenSourceRepository/  and download babun-1.2.0-dist.zip
+* Run the install.bat file
+* After the installation process is finished, open Babun.
 
 ```
 curl -s https://raw.githubusercontent.com/tiangolo/ansible-babun-bootstrap/master/install.sh | source /dev/stdin
